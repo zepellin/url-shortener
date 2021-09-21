@@ -27,6 +27,7 @@ url "localhost:5001/1204225829" -v
 
 # Achitectural choices
 * Given time constraints, an in memory python dictionary object is used to store mapping of URLs to generated identifiers
+* Lookup and shorten endpoint can be provided with optional ?format=<json|xml> query parameter which them generates json or XML output. Json is default in cases when no format parameter is supplied or format != <json|xml>
 * Please refer to comments in main app.py file, it contains more insight into app's functionality
 
 # Build and deploy
